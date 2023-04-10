@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    text-align: center;
+    background-color: rgb(32, 35, 35);
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-image: url(Images/computer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile-img{
+    float: right;
+    width: 30%;
+}
+.profile{
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.introduction{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 0px 100px 0px 100px;
+    
+}
+.links{
+    margin-bottom: 20px;
+}
+.link-img{
+    width: 3%;
+    margin: auto 15px;
+}
+.skills{
+    overflow:hidden;
+    display: flex;
+    height: 200px;
+    width: 1500px;
+    margin: 0 auto;
+}
+.skills div {
+    min-width: 300px;
+    animation: slide 15s linear infinite;
+}
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1500px, 0, 0); /* The image width */
+    }
+}
+.skill-image{
+    width: 20%;
+      
+}
+.experience-card{
+    line-height: 25px;
+    margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.experience-image{
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+
+h1{
+    margin-top: 100px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: white;
+    line-height: 2;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    font-size: 3.5rem;
+    color: rgb(84, 95, 196);
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: normal;
+}
+
+.hr{
+    display: inline-block;
+    border-color: rgb(243, 232, 232);
+    height: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 50%;
+    
+}
+h5{
+    color: white; font-size:1rem; margin-bottom: 0px; margin-top: 50px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
